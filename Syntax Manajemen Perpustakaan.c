@@ -70,3 +70,89 @@ int main() {
       case 2: {
         //Mencari buku
         printf("\nCARI BUKU\n");
+        
+        //Membaca judul buku yang dicari dari user
+        char title[100];
+        printf("Judul: ");
+        scanf(" %[^\n]", title);
+        
+        //Mencari buku berdasarkan judul
+        int index = searchBook(books, numBooks, title);
+        
+        //Menampilkan hasil pencarian
+        if (index == -1){
+          printf("Tidak ditemukan buku dengan judul %s\n", title);
+        } else {
+          printf("Judul buku: %s\n", books[index].title);
+          printf("Pengarang: %s\n", books[index].author);
+          printf("Tahun terbit: %d\n", books[index].year);
+          printf("Penerbit: %s\n", books[index].publisher);
+          printf("Jumlah halaman: %d\n" books[index].pages);
+             if (book[index].borrowed == 1) {
+          printf("Status: Sedang dipinjam\n");
+         } else {
+          printf("Status: Tersedia\n);
+                 }
+         }
+         break;
+        }
+        case 3: {
+            //Meminjam buku
+            printf("\nPINJAM BUKU:\n");
+
+            //Membaca judul buku yang dipinjam dari user
+            char title[100];
+            printf("Judul: ");
+            scanf(" %[^\n]", title);
+
+            //Mencari buku berdasarkan judul
+            int index = searchBook(books, numBooks, title);
+
+            //Meminjam buku
+            if (index == -1) {
+                printf("Tidak ditemukan buku dengan judul %s\n", title);
+            } else if (books[index].borrowed == 1) {
+                printf("Buku sedang dipinjamkan.\n");
+            } else {
+                books[index].borrowed = 1;
+                printf("Buku berhasil dipinjam.\n");
+            }
+            break;
+           }
+        case 4: {
+            //Mengembalikan buku
+            printf("\nKEMBALIKAN BUKU:\n");
+
+            //Membaca judul buku yang dikembalikan dari user
+            char title[100];
+            printf("Judul: ");
+            scanf(" %[^\n]", title);
+
+            //Mencari buku berdasarkan judul
+            int index = searchBook(books, numBooks, title);
+
+            //Mengembalikan buku
+            if (index == -1) {
+                printf("Tidak ditemukan buku dengan judul %s\n", title);
+            } else if (books[index].borrowed == 0) {
+                printf("Buku tidak sedang dipinjamkan.\n");
+            } else {
+                books[index].borrowed = 0;
+                printf("Buku berhasil dikembalikan.\n");
+            }
+            break;
+        }
+        case 5: {
+            // Keluar dari program
+            printf("\nTerima kasih telah mengunjungi E-Perpus .\n");
+            return 0;
+        }
+        default: {
+            // Pilihan tidak valid
+            printf("\nPilihan tidak valid\n");
+            break;
+        }
+     }
+}
+}
+                 
