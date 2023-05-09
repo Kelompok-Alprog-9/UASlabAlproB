@@ -87,13 +87,13 @@ int main() {
           printf("Pengarang: %s\n", books[index].author);
           printf("Tahun terbit: %d\n", books[index].year);
           printf("Penerbit: %s\n", books[index].publisher);
-          printf("Jumlah halaman: %d\n" books[index].pages);
-             if (book[index].borrowed == 1) {
+          printf("Jumlah halaman: %d\n", books[index].pages);
+        }
+        if (books[index].borrowed == 1) {
           printf("Status: Sedang dipinjam\n");
          } else {
-          printf("Status: Tersedia\n);
-                 }
-         }
+          printf("Status: Tersedia\n");
+            }
          break;
         }
         case 3: {
