@@ -223,7 +223,7 @@ int main() {
         case 5: {
             // Keluar dari program
             printf("\nTERIMA KASIH TELAH MENGUNJUNGI E-PERPUS!\n");
-            printf("\nSILAHKAN DATANG LAIN KALI.\n);
+            printf("\nSILAHKAN DATANG LAIN KALI.\n");
             return 0;
         }
         default: {
