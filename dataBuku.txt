@@ -1,0 +1,400 @@
+Buku ke-1
+Judul: Antara Dia, Aku & Mereka
+Pengarang: Felix Y. Siauw
+Tahun terbit: 2019
+Penerbit: Alfatih Press
+Genre: Non Fiksi
+Jumlah halaman: 288
+
+Buku ke-2
+Judul: Kamu Gak Sendiri
+Pengarang: Syahid Muhammad
+Tahun terbit: 2019
+Penerbit: Gradien Mediatama
+Genre: Non Fiksi
+Jumlah halaman: 340
+
+Buku ke-3
+Judul: Bumi
+Pengarang: Tere Liye
+Tahun terbit: 2014
+Penerbit: Gramedia Pustaka Utama
+Genre: Fantasi
+Jumlah halaman: 438
+
+Buku ke-4
+Judul: Beyond the Inspiration
+Pengarang: Felix Y. Siauw
+Tahun terbit: 2010
+Penerbit: Alfatih Press
+Genre: Non Fiksi
+Jumlah halaman: 267
+
+Buku ke-5
+Judul: #Pernah Tenggelam
+Pengarang: Fuadh Naim
+Tahun terbit: 2019
+Penerbit: Alfatih Press
+Genre: Non Fiksi
+Jumlah halaman: 224
+
+Buku ke-6
+Judul: Si Anak Cahaya
+Pengarang: Tere Liye
+Tahun terbit: 2018
+Penerbit: Republika
+Genre: Fiksi Anak
+Jumlah halaman: 417
+
+Buku ke-7
+Judul: Rasa
+Pengarang: Tere Liye
+Tahun terbit: 2022
+Penerbit: Sabak Grip
+Genre: Romansa
+Jumlah halaman: 419
+
+Buku ke-8
+Judul: Muhammad Al-Fatih 1453
+Pengarang: Felix Y. Siauw
+Tahun terbit: 2013
+Penerbit: Alfatih Press
+Genre: Sejarah
+Jumlah halaman: 318
+
+Buku ke-9
+Judul: How to Master Your Habits
+Pengarang: Felix Y. Siauw
+Tahun terbit: 2018
+Penerbit: Alfatih Press
+Genre: Non Fiksi
+Jumlah halaman: 170
+
+Buku ke-10
+Judul: Sesuk
+Pengarang: Tere Liye
+Tahun terbit: 2022
+Penerbit: Sabak Grip
+Genre: Horor
+Jumlah halaman: 327
+
+Buku ke-11
+Judul: Pulang-Pergi
+Pengarang: Tere Liye
+Tahun terbit: 2020
+Penerbit: Sabak Grip
+Genre: Aksi
+Jumlah halaman: 414
+
+Buku ke-12
+Judul: Atomic Habit
+Pengarang: James Clear
+Tahun terbit: 2018
+Penerbit: Gramedia Pustaka Umum
+Genre: Non Fiksi
+Jumlah halaman: 356
+
+Buku ke-13
+Judul: Antara Ibuku dan Ibuku
+Pengarang: Desni Intan Suri
+Tahun terbit: 2011
+Penerbit: Salsabila
+Genre: Non Fiksi
+Jumlah halaman: 281
+
+Buku ke-14
+Judul: Majnun
+Pengarang: Anton Kurnia
+Tahun terbit: 2022
+Penerbit: Baca
+Genre: Fiksi
+Jumlah halaman: 199
+
+Buku ke-15
+Judul: Tak Mungkin Membuat Semua Orang Senang
+Pengarang: Jeong Moon-jeong
+Tahun terbit: 2019
+Penerbit: Gramedia Pustaka Utama
+Genre: Self-Improvement
+Jumlah halaman: 206
+
+Buku ke-16
+Judul: 172 Days
+Pengarang: Nadira Shafa
+Tahun terbit: 2022
+Penerbit: Motivaksi Inspira
+Genre: Fiksi
+Jumlah halaman: 241
+
+Buku ke-17
+Judul: Oh My Savior
+Pengarang: Washashira
+Tahun terbit: 2022
+Penerbit: Akad
+Genre: Fiksi
+Jumlah halaman: 276
+
+Buku ke-18
+Judul: Si Putih
+Pengarang: Tere Liye
+Tahun terbit: 2021
+Penerbit: Gramedia Pustaka Utama
+Genre: Fantasi
+Jumlah halaman: 373
+
+Buku ke-19
+Judul: Laut Bercerita
+Pengarang: Leila S. Chudori
+Tahun terbit: 2017
+Penerbit: Gramedia Pustaka Utama
+Genre: Sejarah
+Jumlah halaman: 379
+
+Buku ke-20
+Judul: Dikta dan Hukum
+Pengarang: Dhia'an Farah
+Tahun terbit: 2021
+Penerbit: Asoka Aksara X Loveable
+Genre: Romansa
+Jumlah halaman: 320
+
+Buku ke-21
+Judul: Gadis Minimarket
+Pengarang: Sayaka Murata
+Tahun terbit: 2020
+Penerbit: Gramedia Pustaka Utama
+Genre: Romansa
+Jumlah halaman: 160
+
+Buku ke-22
+Judul: Janji
+Pengarang: Tere Liye
+Tahun terbit: 2021
+Penerbit: Sabak Grip
+Genre: Drama
+Jumlah halaman: 486
+
+Buku ke-23
+Judul: Tentang Kamu
+Pengarang: Tere Liye
+Tahun terbit: 2016
+Penerbit: Republika
+Genre: Drama
+Jumlah halaman: 524
+
+Buku ke-24
+Judul: Twenty Four Eyes
+Pengarang: Sakae Tsuboi
+Tahun terbit: 2021
+Penerbit: Gramedia Pustaka Utama
+Genre: Fiksi
+Jumlah halaman: 248
+
+Buku ke-25
+Judul: Negeri 5 Menara
+Pengarang: Ahmad Fuadi
+Tahun terbit: 2009
+Penerbit: Gramedia Pustaka Utama
+Genre: Drama
+Jumlah halaman: 423
+
+Buku ke-26
+Judul: Soekarno Sang Guru Bangsa
+Pengarang: Anom Whani Wicaksana
+Tahun terbit: 2017
+Penerbit: C-Klik Media
+Genre: Non Fiksi
+Jumlah halaman: 210
+
+Buku ke-27
+Judul: Pergi
+Pengarang: Tere Liye
+Tahun terbit: 2018
+Penerbit: Republika
+Genre: Aksi
+Jumlah halaman: 455
+
+Buku ke-28
+Judul: Si Anak Savana
+Pengarang: Tere Liye
+Tahun terbit: 2022
+Penerbit: Sabak Grip
+Genre: Fiksi Anak
+Jumlah halaman: 380
+
+Buku ke-29
+Judul: Lima Cerita
+Pengarang: Desi Anwar
+Tahun terbit: 2019
+Penerbit: Gramedia Pustaka Utama
+Genre: Non Fiksi
+Jumlah halaman: 320
+
+Buku ke-30
+Judul: Man's Search For Meaning
+Pengarang: Viktor E. Frankl
+Tahun terbit: 2018
+Penerbit: Noura Books Publishing
+Genre: Self-Improvement
+Jumlah halaman: 233
+
+Buku ke-31
+Judul: What's So Wrong About Your Life
+Pengarang: Ardhi Mohamad
+Tahun terbit: 2019
+Penerbit: Bhumi Anoma
+Genre: Non Fiksi
+Jumlah halaman: 180
+
+Buku ke-32
+Judul: Bicara Itu Ada Seninya
+Pengarang: Oh Su-hyang
+Tahun terbit: 2018
+Penerbit: Bhuana Ilmu Populer
+Genre: Self-Improvement
+Jumlah halaman: 238
+
+Buku ke-33
+Judul: Bibi Gill
+Pengarang: Tere Liye
+Tahun terbit: 2021
+Penerbit: Sabak Grip
+Genre: Fantasi
+Jumlah halaman: 356
+
+Buku ke-34
+Judul: Introvert and Extrovert is Fine
+Pengarang: Amir Ubaidillah
+Tahun terbit: 2021
+Penerbit: C-Klik Media
+Genre: Non Fiksi
+Jumlah halaman: 168
+
+Buku ke-35
+Judul: The Ikigai Journey
+Pengarang: Hector Garcia
+Tahun terbit: 2017
+Penerbit: Renebook
+Genre: Non Fiksi
+Jumlah halaman: 289
+
+Buku ke-36
+Judul: Hello
+Pengarang: Tere Liye
+Tahun terbit: 2023
+Penerbit: Sabak Grip
+Genre: Romansa
+Jumlah halaman: 318
+
+Buku ke-37
+Judul: SagaraS
+Pengarang: Tere Liye
+Tahun terbit: 2021
+Penerbit: Sabak Grip
+Genre: Fantasi
+Jumlah halaman: 384
+
+Buku ke-38
+Judul: Loving the Wounded Soul
+Pengarang: Regis Machdy
+Tahun terbit: 2019
+Penerbit: Gramedia Pustaka Utama
+Genre: Non Fiksi
+Jumlah halaman: 324
+
+Buku ke-39
+Judul: Lost & Found
+Pengarang: Nirasha Darusman
+Tahun terbit: 2022
+Penerbit: Kawan Pustaka
+Genre: Non Fiksi
+Jumlah halaman: 408
+
+Buku ke-40
+Judul: Bittersweet
+Pengarang: Susan Cain
+Tahun terbit: 2012
+Penerbit: Gramedia Pustaka Utama
+Genre: Non Fiksi
+Jumlah halaman: 312
+
+Buku ke-41
+Judul: Tanah Para Bandit
+Pengarang: Tere Liye
+Tahun terbit: 2023
+Penerbit: Sabak Grip
+Genre: Aksi
+Jumlah halaman: 433
+
+Buku ke-42
+Judul: Sebuah Seni Untuk Bersikap Bodo Amat
+Pengarang: Mark Manson
+Tahun terbit: 2022
+Penerbit: Grasindo
+Genre: Self-Improvement
+Jumlah halaman: 243
+
+Buku ke-43
+Judul: The Lonely Stories
+Pengarang: Natalie Eve Garrett
+Tahun terbit: 2022
+Penerbit: Alvi Ardhi Publishing
+Genre: Non Fiksi
+Jumlah halaman: 296
+
+Buku ke-44
+Judul: Brianna dan Bottomwise
+Pengarang: Andrea Hirata
+Tahun terbit: 2022
+Penerbit: Bentang Pustaka
+Genre: Fiksi
+Jumlah halaman: 380
+
+Buku ke-45
+Judul: Bedebah di Ujung Tanduk
+Pengarang: Tere Liye
+Tahun terbit: 2021
+Penerbit: Sabak Grip
+Genre: Aksi
+Jumlah halaman: 411
+
+Buku ke-46
+Judul: Hujan
+Pengarang: Tere Liye
+Tahun terbit: 2016
+Penerbit: Gramedia Pustaka Utama
+Genre: Romansa
+Jumlah halaman: 318
+
+Buku ke-47
+Judul: Man Boy
+Pengarang: Alia Zalea
+Tahun terbit: 2023
+Penerbit: Gramedia Pustaka Utama
+Genre: Fiksi
+Jumlah halaman: 312
+
+Buku ke-48
+Judul: Paint
+Pengarang: Lee Hee-young
+Tahun terbit: 2020
+Penerbit: M&C
+Genre: Fiksi
+Jumlah halaman: 362
+
+Buku ke-49
+Judul: Si Anak Pelangi
+Pengarang: Tere Liye
+Tahun terbit: 2021
+Penerbit: Sabak Grip
+Genre: Fiksi Anak
+Jumlah halaman: 365
+
+Buku ke-50
+Judul: Rindu
+Pengarang: Tere Liye
+Tahun terbit: 2014
+Penerbit: Republika
+Genre: Drama
+Jumlah halaman: 544
+
