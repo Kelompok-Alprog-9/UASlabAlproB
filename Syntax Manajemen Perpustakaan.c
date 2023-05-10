@@ -20,11 +20,82 @@ int searchBook(struct Book books[], int n, char title[]) {
 }
 
 int main() {
-  //Array untuk menyimpan data buku
-  struct Book books[50];
   //Jumlah buku yang sudah ditambahkan
   int numBooks = 0;
   
+  //Input data buku
+  FILE *fileBook;
+    struct Book books[50] = {
+        {"Antara Dia, Aku & Mereka", "Felix Y. Siauw", "Alfatih Press", "Non Fiksi", 2019, 0},
+        {"Kamu Gak Sendiri", "Syahid Muhammad", "Gradien Mediatama", "Non Fiksi", 2019, 0},
+        {"Bumi", "Tere Liye", "Gramedia Pustaka Utama", "Fantasi", 2014, 0},
+        {"Beyond the Inspiration", "Felix Y. Siauw", "Alfatih Press", "Non Fiksi", 2010, 0},
+        {"#Pernah Tenggelam", "Fuadh Naim", "Alfatih Press", "Non Fiksi", 2019, 0},
+        {"Si Anak Cahaya", "Tere Liye", "Republika", "Fiksi Anak", 2018, 0},
+        {"Rasa", "Tere Liye", "Sabak Grip", "Romansa", 2022, 0},
+        {"Muhammad Al-Fatih 1453", "Felix Y. Siauw", "Alfatih Press", "Sejarah", 2013, 0},
+        {"How to Master Your Habits", "Felix Y. Siauw", "Alfatih Press", "Non Fiksi", 2018, 0},
+        {"Sesuk", "Tere Liye", "Sabak Grip", "Horor", 2022, 0},
+        {"Pulang-Pergi", "Tere Liye", "Sabak Grip", "Aksi", 2020, 0},
+        {"Atomic Habit", "James Clear", "Gramedia Pustaka Umum", "Non Fiksi", 2018, 0},
+        {"Antara Ibuku dan Ibuku", "Desni Intan Suri", "Salsabila", "Non Fiksi", 2011, 0},
+        {"Majnun", "Anton Kurnia", "Baca", "Fiksi", 2022, 0},
+        {"Tak Mungkin Membuat Semua Orang Senang", "Jeong Moon-jeong", "Gramedia Pustaka Utama", "Self-Improvement", 2019, 0},
+        {"172 Days", "Nadira Shafa", "Motivaksi Inspira", "Fiksi", 2022, 0},
+        {"Oh My Savior", "Washashira", "Akad", "Fiksi", 2022, 0},
+        {"Si Putih", "Tere Liye", "Gramedia Pustaka Utama", "Fantasi", 2021, 0},
+        {"Laut Bercerita", "Leila S. Chudori", "Gramedia Pustaka Utama", "Sejarah", 2017, 0},
+        {"Dikta dan Hukum", "Dhia'an Farah", "Asoka Aksara X Loveable", "Romansa", 2021, 0},
+        {"Gadis Minimarket", "Sayaka Murata", "Gramedia Pustaka Utama", "Romansa", 2020, 0},
+        {"Janji", "Tere Liye", "Sabak Grip", "Drama", 2021, 0},
+        {"Tentang Kamu", "Tere Liye", "Republika", "Drama", 2016, 0},
+        {"Twenty Four Eyes", "Sakae Tsuboi", "Gramedia Pustaka Utama", "Fiksi", 2021, 0},
+        {"Negeri 5 Menara", "Ahmad Fuadi", "Gramedia Pustaka Utama", "Drama", 2009, 0},
+        {"Soekarno Sang Guru Bangsa", "Anom Whani Wicaksana", "C-Klik Media", "Non Fiksi", 2017, 0},
+        {"Pergi", "Tere Liye", "Republika", "Aksi", 2018, 0},
+        {"Si Anak Savana", "Tere Liye", "Sabak Grip", "Fiksi Anak", 2022, 0},
+        {"Lima Cerita", "Desi Anwar", "Gramedia Pustaka Utama", "Non Fiksi", 2019, 0},
+        {"Man's Search For Meaning", "Viktor E. Frankl", "Noura Books Publishing", "Self-Improvement", 2018, 0},
+        {"What's So Wrong About Your Life", "Ardhi Mohamad", "Bhumi Anoma", "Non Fiksi", 2019, 0},
+        {"Bicara Itu Ada Seninya", "Oh Su-hyang", "Bhuana Ilmu Populer", "Self-Improvement", 2018, 0},
+        {"Bibi Gill", "Tere Liye", "Sabak Grip", "Fantasi", 2021, 0},
+        {"Introvert and Extrovert is Fine", "Amir Ubaidillah", "C-Klik Media", "Non Fiksi", 2021, 0},
+        {"The Ikigai Journey", "Hector Garcia", "Renebook", "Non Fiksi", 2017, 0},
+        {"Hello", "Tere Liye", "Sabak Grip", "Romansa", 2023, 0},
+        {"SagaraS", "Tere Liye", "Sabak Grip", "Fantasi", 2021, 0},
+        {"Loving the Wounded Soul", "Regis Machdy", "Gramedia Pustaka Utama", "Non Fiksi", 2019, 0},
+        {"Lost & Found", "Nirasha Darusman", "Kawan Pustaka", "Non Fiksi", 2022, 0},
+        {"Bittersweet", "Susan Cain", "Gramedia Pustaka Utama", "Non Fiksi", 2012, 0},
+        {"Tanah Para Bandit", "Tere Liye", "Sabak Grip", "Aksi", 2023, 0},
+        {"Sebuah Seni Untuk Bersikap Bodo Amat", "Mark Manson", "Grasindo", "Self-Improvement", 2022, 0},
+        {"The Lonely Stories", "Natalie Eve Garrett", "Alvi Ardhi Publishing", "Non Fiksi", 2022, 0},
+        {"Brianna dan Bottomwise", "Andrea Hirata", "Bentang Pustaka", "Fiksi", 2022, 0},
+        {"Bedebah di Ujung Tanduk", "Tere Liye", "Sabak Grip", "Aksi", 2021, 0},
+        {"Hujan", "Tere Liye", "Gramedia Pustaka Utama", "Romansa", 2016, 0},
+        {"Man Boy", "Alia Zalea", "Gramedia Pustaka Utama", "Fiksi", 2023, 0},
+        {"Paint", "Lee Hee-young", "M&C", "Fiksi", 2020, 0},
+        {"Si Anak Pelangi", "Tere Liye", "Sabak Grip", "Fiksi Anak", 2021, 0},
+        {"Rindu", "Tere Liye", "Republika", "Drama", 2014, 0},
+
+    };
+  
+  // Membuka file untuk menuliskan data
+    fileBook = fopen("D:/TugasAlprolab/dataBuku.txt", "w");
+
+    // Menuliskan data buku ke file
+    for (numBooks = 0; numBooks < 50; numBooks++) {
+        fprintf(fileBook, "Buku ke-%d\n", numBooks + 1);
+        fprintf(fileBook, "Judul: %s\n", books[numBooks].title);
+        fprintf(fileBook, "Pengarang: %s\n", books[numBooks].author);
+        fprintf(fileBook, "Tahun terbit: %d\n", books[numBooks].year);
+        fprintf(fileBook, "Penerbit: %s\n", books[numBooks].publisher);
+        fprintf(fileBook, "Genre: %s\n", books[numBooks].genre);
+        fprintf(fileBook, "\n");
+    }
+
+    //Menutup file
+    fclose(fileBook);
+
   //Loop utama program
   while (1) {
     //Menampilkan menu
@@ -112,7 +183,7 @@ int main() {
             if (index == -1) {
                 printf("Tidak ditemukan buku dengan judul %s\n", title);
             } else if (books[index].borrowed == 1) {
-                printf("Buku sedang dipinjamkan.\n");
+                printf("Buku sedang dipinjamkan. Cari buku lain\n");
             } else {
                 books[index].borrowed = 1;
                 printf("Buku berhasil dipinjam.\n");
@@ -135,7 +206,7 @@ int main() {
             if (index == -1) {
                 printf("Tidak ditemukan buku dengan judul %s\n", title);
             } else if (books[index].borrowed == 0) {
-                printf("Buku tidak sedang dipinjamkan.\n");
+                printf("Buku tidak sedang dipinjamkan. Pastikan cek status buku terlebih dahulu.\n");
             } else {
                 books[index].borrowed = 0;
                 printf("Buku berhasil dikembalikan.\n");
@@ -144,12 +215,13 @@ int main() {
         }
         case 5: {
             // Keluar dari program
-            printf("\nTerima kasih telah mengunjungi E-Perpus .\n");
+            printf("\nTERIMA KASIH TELAH MENGUNJUNGI E-PERPUS!\n");
+            printf("\nSILAHKAN DATANG LAIN KALI.\n);
             return 0;
         }
         default: {
             // Pilihan tidak valid
-            printf("\nPilihan tidak valid\n");
+            printf("\nPILIHAN TIDAK VALID\n");
             break;
         }
      }
