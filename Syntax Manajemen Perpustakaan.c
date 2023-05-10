@@ -157,20 +157,22 @@ int main() {
         
         // Menampilkan hasil pencarian
         if (index == -1){
-          printf("Tidak ditemukan buku dengan judul %s\n", title);
+          printf("Tidak ditemukan buku dengan judul %s. Ketikkan judul dengan benar.\n", title);
         } else {
           printf("Judul buku: %s\n", books[index].title);
           printf("Pengarang: %s\n", books[index].author);
           printf("Tahun terbit: %d\n", books[index].year);
           printf("Penerbit: %s\n", books[index].publisher);
+          printf("Genre: %s\n", books[index].genre);
           printf("Jumlah halaman: %d\n", books[index].pages);
         }
+        
         if (books[index].borrowed == 1) {
           printf("Status: Sedang dipinjam\n");
          } else {
           printf("Status: Tersedia\n");
             }
-         break;
+            break;
         }
         case 3: {
             // Meminjam buku
@@ -186,7 +188,7 @@ int main() {
 
             // Meminjam buku
             if (index == -1) {
-                printf("Tidak ditemukan buku dengan judul %s\n", title);
+                printf("Tidak ditemukan buku dengan judul %s.\n", title);
             } else if (books[index].borrowed == 1) {
                 printf("Buku sedang dipinjamkan. Cari buku lain\n");
             } else {
@@ -209,7 +211,7 @@ int main() {
 
             // Mengembalikan buku
             if (index == -1) {
-                printf("Tidak ditemukan buku dengan judul %s\n", title);
+                printf("Tidak ditemukan buku dengan judul %s.\n", title);
             } else if (books[index].borrowed == 0) {
                 printf("Buku tidak sedang dipinjamkan. Pastikan cek status buku terlebih dahulu.\n");
             } else {
@@ -226,10 +228,9 @@ int main() {
         }
         default: {
             // Pilihan tidak valid
-            printf("\nPILIHAN TIDAK VALID\n");
+            printf("\nPilihan tidak valid. Ketikkan angka sesuai menu.\n");
             break;
         }
      }
 }
 }
-                 
